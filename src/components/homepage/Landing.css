@@ -1,0 +1,33 @@
+/* src/components/homepage/Landing.css */
+.landing {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .landing h1 {
+    color: #007bff;
+  }
+  
+  .landing p {
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .explore-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .explore-btn:hover {
+    background-color: #0056b3;
+  }
+  

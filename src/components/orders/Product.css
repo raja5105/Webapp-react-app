@@ -1,0 +1,14 @@
+/* Product.css */
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px; 
+  }
+  
+  .product img {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 8px; 
+  }
+  

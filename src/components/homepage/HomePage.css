@@ -1,0 +1,65 @@
+/* HomePage.css */
+.homePage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .homeHeader {
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+  }
+  
+  .homeTitle {
+    color: #007bff;
+  }
+  
+  .homeImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px; 
+  }
+  
+  .homeMain {
+    padding: 20px;
+  }
+  
+  .homeFooter {
+    background: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+  .introSection, .featuresSection {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .introSection h2, .featuresSection h2 {
+    color: #2c3e50;
+  }
+  
+  .featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .featureItem {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .featureItem:hover {
+    transform: translateY(-5px);
+  }
+    

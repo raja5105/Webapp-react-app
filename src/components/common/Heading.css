@@ -1,0 +1,8 @@
+/* src/components/common/Heading.css */
+.page-heading {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  

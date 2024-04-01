@@ -1,0 +1,61 @@
+/* HelpSupport.css */
+.help-support {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .help-support h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .help-support h2 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  li::before {
+    content: "•"; 
+    color: #007bff; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+  
+  p, ul {
+    line-height: 1.6;
+  }
+  
+  .contact-support {
+    margin-top: 20px;
+  }
+  
+  .contact-support p {
+    margin: 10px 0;
+  }
+  
+  .contact-support a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-support a:hover {
+    text-decoration: underline;
+  }
+  
